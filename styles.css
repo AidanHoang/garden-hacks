@@ -5,3 +5,7 @@ h1#title {
 a#nav-title {
     padding-left: 2%;
 }
+
+img#mapPlaceholder {
+    text-align: center;
+}
