@@ -1,3 +1,7 @@
 h1#title {
     text-align: center;
 }
+
+a#nav-title {
+    padding-left: 2%;
+}
