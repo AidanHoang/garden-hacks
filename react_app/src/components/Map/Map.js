@@ -31,6 +31,13 @@ function Map() {
             position: { lat: 15.5553, lng: 73.7517 },
             icon: iconList.moderate
         },
+        {
+            id: 2,
+            name: "Baga Beatch, Goa",
+            details: "472 live cases",
+            position: { lat: 37.7704447075985, lng: -122.4690568226829 },
+            icon: iconList.moderate
+        },
        
     ];
 
