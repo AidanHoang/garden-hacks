@@ -57,7 +57,7 @@ function Navbar({ dispatch, isSignedIn, userId }) {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Garden Hacks
+          Garden Dome
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

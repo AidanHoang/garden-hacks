@@ -218,7 +218,7 @@ function Map() {
             name: "Kala Pathar Beach, Havelock",
             details: "472 live cases",
             position: { lat: 12.0006, lng: 93.0071 },
-            icon: iconList.moderate
+            icon: iconList.danger
         },
         {
             id: 29,
@@ -298,6 +298,9 @@ function Map() {
                     ) : null}
                 </Marker>
             ))}
+            <Marker >
+
+            </Marker>
         </GoogleMap>
     );
 }

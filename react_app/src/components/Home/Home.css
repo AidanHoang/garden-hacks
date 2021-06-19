@@ -16,12 +16,14 @@ p{
     font-size: 1.4rem;
     font-family: "Source Serif Pro", serif;
 }
-
+.Marker__info{
+    width: 25px;
+}
 .Map {
     position: absolute;
     display: grid;
     place-items: center;
-    top: 35%;
+    /* top: 35%; */
     left: 18%;
     padding-bottom: 20px;
 }
