@@ -50,7 +50,7 @@ export default function App() {
     <div>
       <h1 className="heading">
         Report
-      <p style={{paddingTop: "20px"}}>Report, if you spot someone cutting trees in garden</p>
+      <p style={{paddingTop: "20px"}}>Report People if you Spot them Cutting Down Trees in a Garden</p>
       </h1>
 
       <Locate panTo={panTo} />
