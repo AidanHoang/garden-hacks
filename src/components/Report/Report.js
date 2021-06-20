@@ -9,6 +9,7 @@ import "./Report.css"
 const mapContainerStyle = {
   left: "15vw",
   top: "5rem",
+  bottom: "5rem",
   height: "70vh",
   width: "70vw",
 };
@@ -106,6 +107,7 @@ function Locate({ panTo }) {
   return (
     <button
       className="locate"
+     
       onClick={() => {
         navigator.geolocation.getCurrentPosition(
           (position) => {
@@ -156,7 +158,7 @@ function Search({ panTo }) {
   };
 
   return (
-    <div className="search">
+    <div className="search" style={{marginTop: "110px", left: "550px"}}>
       <Combobox onSelect={handleSelect}>
         <ComboboxInput
           value={value}

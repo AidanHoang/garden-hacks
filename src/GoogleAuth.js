@@ -7,7 +7,7 @@ import Main from "./main"
 const GoogleAuth = ({ dispatch, isSignedIn, userId }) => {
 
   const {} = useLoadScript({
-    googleMapsApiKey: "AIzaSyBsZrS5LkAXAqzgVYMJQQMYOoWgYCHHZTU" // Add your API key
+    googleMapsApiKey: "AIzaSyBsZrS5LkAXAqzgVYMJQQMYOoWgYCHHZTU"
   });
 
 
@@ -16,7 +16,7 @@ const GoogleAuth = ({ dispatch, isSignedIn, userId }) => {
   useEffect(() => {
     const params = {
       clientId:
-        "404399157121-ml5edhir8sh3qk81o00opr0vogkua3it.apps.googleusercontent.com",
+        "649157346424-8m17s9ptc30j7nbf8o7vj76lro8lvpmt.apps.googleusercontent.com",
       scope: "email",
     };
 

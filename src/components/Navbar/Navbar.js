@@ -77,6 +77,12 @@ function Navbar({ dispatch, isSignedIn, userId }) {
           </li>
 
           <li className='nav-item'>
+            <Link to='/chatbot' className='nav-links' onClick={closeMobileMenu}>
+              Chatbot
+            </Link>
+          </li>
+
+          <li className='nav-item'>
             <Link to='/hi' className='nav-links' style={{ color: "#1aff1a", hover: "none" }} onClick={closeMobileMenu}>
               A/आ
             </Link>

@@ -1,0 +1,22 @@
+.search {
+    margin-top: -200px;
+    margin-left: 200px;
+}
+
+.locate {
+    position: absolute;
+    top: 20rem;
+    right: 15rem;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+.locate img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.Map{
+    padding-bottom: 50px;
+}
